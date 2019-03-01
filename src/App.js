@@ -377,7 +377,8 @@ class App extends Component {
     const sideBarTemplate = (
       <div className="sidebar-wrapper pt-4">
         <span className="title font-weight-bold pl-3">ACME Apparels</span>
-        <div className="score-wrapper mt-3 pl-3">
+        <div className="pl-3">
+        <div className="score-wrapper mt-3">
           <div>
             <span className="nps-score pl-2"> 70 </span>
             <span className="nps-time-frame pl-2"> 30-DAY NPS </span>
@@ -397,6 +398,8 @@ class App extends Component {
               <div className="type font-weight-bold text-uppercase pl-4">Detractors</div>
             </div>
           </div>
+        </div>
+        
         </div>
         <div className='menu-container pt-3'>
           <ul className='menu p-0 text-left font-weight-bold unstyled'>
